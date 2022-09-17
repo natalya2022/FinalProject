@@ -31,7 +31,7 @@ string[] CopyArrayWords3(string[] myString)   // Функция копирует
 
 void Main()
 {
-    string[] myString = Prompt("Введите строку, завершите ввод нажатием клавиши Enter > ");    // Вводим текст
+    string[] myString = Prompt("Введите строку, завершите ввод нажатием клавиши Enter > ");    // Вводим текст с клавиатуры
     string[] arrayWords = CopyArrayWords3(myString);
     System.Console.WriteLine("--- Исходный массив ---");
     ArrayPrint(myString);
